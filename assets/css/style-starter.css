@@ -11908,23 +11908,14 @@ div#small-dialog iframe {
   .w3l-team h3.name-pos a {
     font-size: 18px;
     line-height: 22px; }
-<<<<<<< HEAD
-  .navbar-brand{
-=======
-	  .navbar-brand{
->>>>>>> 4dd057e66f1b1f07d07886e91ca85df3146ad171
-    width:30px;
-    }
+
     .theme-selector{
       padding-left: 88px;
       margin-top: 100px;
-<<<<<<< HEAD
   }
     
      }
-=======
-  }}
->>>>>>> 4dd057e66f1b1f07d07886e91ca85df3146ad171
+  
 
 @media (max-width: 667px) {
   .w3l-team .team-info p {

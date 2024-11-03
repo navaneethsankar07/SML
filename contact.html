@@ -41,6 +41,9 @@
             <li class="nav-item active">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
+            <li class="nav-item @@contact-active">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
           </ul>
         </div>
         <!-- toggle switch for light and dark theme -->
@@ -82,33 +85,30 @@
             </div>
             <div class="hours">
               <h6 class="mt-4">Email:</h6>
-              <p> <a href="mailto:sijukrishnan75@yahoo.com">sijukrishnan75@yahoo.com  </a></p>
+              <p> <a href="mailto:smlearninginternaionalacademy@gmail.com">smlearninginternaionalacademy@gmail.com </a></p>
               <h6 class="mt-4">Visit Us:</h6>
               <p>Kidangoor P O ,Kottayam Kerala India 686572.</p>
               <h6 class="mt-4">Contact:</h6>
-              <p class="margin-top"><a href="tel:8281786653"> 8281786653</a></p>
+              <p class="margin-top"><a href="tel:8281786653">8281786653,9746227654</a></p>
             </div>
           </div>
         </div>
         <div class="col-lg-6 mt-lg-0 mt-5 contact-right">
-          <form action="" method="post" class="signin-form">
-            <div class="input-grids">
-              <div class="form-group">
+          <form action="https://api.web3forms.com/submit" method="POST" class="signin-form">
+           
+          
+                <input type="hidden" name="638aebbc-8996-4e92-99d0-d2aa30b0805d" value="638aebbc-8996-4e92-99d0-d2aa30b0805d">
+       
                 <input type="text" name="w3lName" id="w3lName" placeholder="Your Name*" class="contact-input" />
-              </div>
-              <div class="form-group">
+          
                 <input type="email" name="w3lSender" id="w3lSender" placeholder="Your Email*" class="contact-input" required="" />
-              </div>
-              <div class="form-group">
+      
                 <input type="text" name="w3lSubect" id="w3lSubect" placeholder="Subject*" class="contact-input" />
-              </div>
-            </div>
-            <div class="form-group">
+     
               <textarea name="w3lMessage" id="w3lMessage" placeholder="Type your message here*" required=""></textarea>
-            </div>
-            <div class="text-right">
-              <button class="btn btn-primary theme-button">Send Message</button>
-            </div>
+           
+              <button type="submit" class="btn btn-primary theme-button">Send Message</button>
+           
           </form>
         </div>
 
@@ -128,7 +128,8 @@
         <div class="row footer-border">
           <div class="col-lg-3 col-md-5 column pr-md-0">
             <h1><a href="index.html" class="footer-brand-logo"><span class="fa fa-pencil-square-o"></span>SM Learning</a></h1>
-            
+            <P style="font-size: 24px;">Redefining Education</P>
+            <P>Since 2017</P>
             <ul class="mt-4 contact">
               <li>
                 <p><span class="fa fa-phone" aria-hidden="true"></span> <a href="tel:8281786653">8281786653</a></p>
@@ -175,7 +176,7 @@
     </div>
 
     <!-- move top -->
-    <button onclick="topFunction()" id="movetop" title="Go to top">
+    <button onclick="topFunction()" id="movetop" class="movetop" title="Go to top">
       <span class="fa fa-angle-up"></span>
     </button>
     <script>

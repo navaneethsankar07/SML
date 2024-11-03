@@ -22,7 +22,13 @@
   font-size: 1.33333em;
   line-height: 0.75em;
   vertical-align: -15%; }
-
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .fa-2x {
   font-size: 2em; }
 
@@ -9709,7 +9715,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0; }
 
 p {
-  margin: 0;
+  margin: 3px;
   padding: 0;
   color: var(--text-color);
   font-size: 16px;
@@ -11042,7 +11048,7 @@ button.owl-next {
   font-size: 14px;
   margin-top: 4px; }
 
-.w3l-footer #movetop {
+.movetop {
   display: none;
   position: fixed;
   bottom: 0px;
@@ -11058,7 +11064,7 @@ button.owl-next {
   opacity: 0.7;
   transition: 0.3s ease; }
 
-.w3l-footer #movetop:hover {
+.movetop:hover {
   opacity: 1;
   transition: 0.3s ease; }
 

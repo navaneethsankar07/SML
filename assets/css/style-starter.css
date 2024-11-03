@@ -9786,7 +9786,7 @@ a.brand-logo img {
 
 @media (max-width: 667px) {
   .header-section h3 {
-    font-size: 32px;
+    font-size: 25px;
     line-height: 42px; }
   .header-section h2 {
     font-size: 36px;
@@ -10188,7 +10188,10 @@ nav#breadcrumbs a:hover {
   .w3l-header .navbar-expand-lg .navbar-nav.nav_btn a {
     font-size: 14px;
     padding: 0px; } }
-
+.blabla{
+  width:700px;
+  height: 400px;
+}
 @media only screen and (max-width: 991px) {
   .w3l-header .popup {
     display: none; }
@@ -10271,7 +10274,20 @@ nav#breadcrumbs a:hover {
     font-size: 20px;
     line-height: 1.2em;
     color: #fff;
-    line-height: 34px; }
+    line-height: 34px;
+    margin-top: 1rem;
+  
+  }
+  .blabla{
+        width: 300px;
+    height: 199px;
+    left: -2rem;
+    position: relative;
+
+  }
+  .w3l-footer .w3l-footer-16-main p a{
+    font-size: 2rem;
+  }
   .w3l-header .navbar-toggler {
     padding: 0rem 0rem !important; } }
 
@@ -10951,7 +10967,15 @@ button.owl-next {
     flex-basis: 100%;
     margin-top: 15px;
     border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px; } }
+    border-bottom-left-radius: 4px; } 
+  .w3l-header .navbar .navbar-brand {
+    font-size: 19px;
+  }
+  body .gg-moon {
+
+    top: -4rem;
+  }
+  }
 
 .w3l-footer a.footer-brand-logo {
   color: var(--primary-color);
@@ -11068,7 +11092,7 @@ button.owl-next {
   opacity: 1;
   transition: 0.3s ease; }
 
-.w3l-footer #movetop span.fa {
+.movetop span.fa {
   line-height: 45px;
   color: #fff;
   font-size: 22px; }

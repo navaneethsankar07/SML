@@ -98,7 +98,12 @@
 .fa-pulse {
   -webkit-animation: fa-spin 1s infinite steps(8);
   animation: fa-spin 1s infinite steps(8); }
-
+.logoimg{
+	width:200px;
+	height:150px;
+	margin-bottom: 30px;
+	display:flex;
+}
 @-webkit-keyframes fa-spin {
   0% {
     transform: rotate(0deg); }
@@ -10299,6 +10304,9 @@ nav#breadcrumbs a:hover {
 @media only screen and (max-width: 480px) {
   .w3l-header .navbar-brand img {
     max-width: 200px; }
+  .logoimg{
+	display:none;
+}
   .w3l-header .mobile-position {
     top: 9px; } }
 
